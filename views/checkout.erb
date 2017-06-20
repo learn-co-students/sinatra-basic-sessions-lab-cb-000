@@ -1,0 +1,8 @@
+<h2>Here is the item you selected:</h2>
+<p><%= @item %></p>
+<br><br>
+<h2>... and here is the content of the session hash</h2>
+<% @session.each{|k, v| %>
+  <p>key: <%= k.to_s %></p>
+  <p>value: <%= v.to_s %></p>
+<% } %>
