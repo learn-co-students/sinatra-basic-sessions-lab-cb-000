@@ -5,10 +5,8 @@
     </head>
     <body>
         <form action="/checkout" method="POST">
-            <label for="item">Item to Buy:</label>
-            <input type="text" name="item" id="item">
-
-            <input type="submit" id="submit">
+            <h1>Your Purchase</h1>
+            <h3><%= @session["item"] %></h3>
         </form>
     </body>
 </html>
