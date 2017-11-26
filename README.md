@@ -4,7 +4,7 @@ Session cookies allow a website to keep track of your movements and information 
 
 Server side, you set up a session, and the information from that session is stored in the browser by way of a cookie.
 
-The goal of this lab is to save a piece of data to the `session cookie`, and display that data in a view. 
+The goal of this lab is to save a piece of data to the `session cookie`, and display that data in a view.
 
 Sessions are commonly used to store data for online shopping. In this lab, you'll be storing an item a user is buying from page to page.
 
